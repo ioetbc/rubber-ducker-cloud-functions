@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^5.0.2",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-sessions": "^1.0.6",
+    "firebase": "^9.7.0",
+    "firebase-admin": "^10.1.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-github": "^1.1.0",
+    "passport-github2": "^0.1.12",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
+}
